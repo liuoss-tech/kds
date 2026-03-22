@@ -1,0 +1,25 @@
+package com.kds.model.vo;
+
+import lombok.Data;
+
+import java.time.LocalDateTime;
+
+@Data
+public class MessageVO {
+
+    private Long id;
+
+    private Long senderId;
+
+    private String senderName;
+
+    private Long receiverId;
+
+    private String receiverName;
+
+    private String content;
+
+    private Boolean isRead;
+
+    private LocalDateTime createTime;
+}
